@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cdepgraph"
+version = "0.1.0"
+description = "A tool that generates include graph from C/C++ source files"
+authors = ["Tin Švagelj <tin.svagelj@live.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+networkx = "^3.3"
+matplotlib = "^3.8.4"
+pydot = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
